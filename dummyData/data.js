@@ -264,4 +264,4 @@ const food = [{
     category:"FSide",
 }]
 
-module.exports = {bollywood,hollywood,fitness,food, technology}
+module.exports = {bollywood}

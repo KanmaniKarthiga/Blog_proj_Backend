@@ -1,9 +1,10 @@
 const express = require("express");
 const { route } = require("./Routes/CategoryRoutes");
-const PORT = 5002;
+const { bollywood } = require("./dummyData/data");
+const PORT = 5005;
 const app = express();
 
-app.use("/api",route)
+app.use("/api", route)
 app.listen(PORT, () =>{
     try{
         console.log("Server is running")
