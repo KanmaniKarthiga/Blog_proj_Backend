@@ -1,6 +1,5 @@
 const express = require("express");
 const { route } = require("./Routes/CategoryRoutes");
-const { bollywood } = require("./dummyData/data");
 const PORT = 5005;
 const app = express();
 

@@ -1,12 +1,22 @@
-const { bollywoodcontroller, hollywoodcontroller, technologycontroller, fitnesscontroller, foodcontroller } = require("../controller/categoryController")
+const { bollywoodcontroller, bollywoodData,hollywoodcontroller, technologycontroller, fitnesscontroller, foodcontroller, hollywoodData, technologyData, fitnessData, foodData } = require("../controller/categoryController")
 
 const route = require("express").Router()
 
+route.get("/bollywood", bollywoodData)
 route.get("/bollywood/:id", bollywoodcontroller)
-// route.get("/hollywood" , hollywoodcontroller)
-// route.get("/technolgy" , technologycontroller)
-// route.get("/fitness" , fitnesscontroller)
-// route.get("/food" , foodcontroller)
+
+route.get("/hollywood" , hollywoodData)
+route.get("/hollywood/:id", hollywoodcontroller)
+
+route.get("/technolgy" , technologyData)
+route.get("/technolgy/:id" , technologycontroller)
+
+route.get("/fitness" , fitnessData)
+route.get("/fitness/:id" , fitnesscontroller)
+
+route.get("/food" , foodData)
+route.get("/food/:id" , foodcontroller)
+
 
 
 
