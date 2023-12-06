@@ -670,4 +670,4 @@ const home = [
     }
 ]
 
-module.exports = { bollywood, hollywood, technology, fitness, food}
+module.exports = { bollywood, hollywood, technology, fitness, food, home}

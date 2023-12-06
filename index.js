@@ -4,9 +4,6 @@ const PORT = 5005;
 const app = express();
 const cors = require("cors")
 
-app.use(cors({
-    origin:"*"
-}))
 app.use("/api", route)
 app.listen(PORT, () =>{
     try{

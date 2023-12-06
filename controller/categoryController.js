@@ -1,5 +1,14 @@
-const { bollywood, hollywood, technology, fitness, food } = require("../dummyData/data")
+const { bollywood, hollywood, technology, fitness, food, home } = require("../dummyData/data")
 
+const homeData = (req,res) =>{
+    return res.send(home)
+}
+const homecontroller = (req,res) =>{
+    const id = req.params.id;
+    console.log(id)
+    const data = home.find(item => item.id == id )
+    return res.send(data)
+}
 const bollywoodData = (req,res) =>{
     return res.send(bollywood)
 }
@@ -53,4 +62,4 @@ const foodcontroller = (req,res) =>{
     console.log(data)
     return res.send(data)
 }
-module.exports = {bollywoodData,bollywoodcontroller, hollywoodData, hollywoodcontroller, technologyData,technologycontroller, fitnessData, fitnesscontroller, foodData, foodcontroller}
+module.exports = {homeData,homecontroller, bollywoodData,bollywoodcontroller, hollywoodData, hollywoodcontroller, technologyData,technologycontroller, fitnessData, fitnesscontroller, foodData, foodcontroller}

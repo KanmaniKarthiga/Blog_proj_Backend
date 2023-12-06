@@ -1,6 +1,9 @@
-const { bollywoodcontroller, bollywoodData,hollywoodcontroller, technologycontroller, fitnesscontroller, foodcontroller, hollywoodData, technologyData, fitnessData, foodData } = require("../controller/categoryController")
+const { bollywoodcontroller, bollywoodData,hollywoodcontroller, technologycontroller, fitnesscontroller, foodcontroller, hollywoodData, technologyData, fitnessData, foodData, homeData, homecontroller } = require("../controller/categoryController")
 
 const route = require("express").Router()
+
+route.get("/", homeData)
+route.get("/:id", homecontroller)
 
 route.get("/bollywood", bollywoodData)
 route.get("/bollywood/:id", bollywoodcontroller)
