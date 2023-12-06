@@ -1,4 +1,4 @@
-const bollywood = [
+const blog = [
     {
         id: 1,
         image: "https://assets.telegraphindia.com/telegraph/2023/May/1685180682_naseeb-se.jpg",
@@ -121,10 +121,8 @@ const bollywood = [
         content: "Afwaah is a reflection of the moral corruption that the society has undergone. It makes us sit up and realise 'the rise of noise' as well as the eroding space for argument and logical thinking as bigotry makes the public gullible.In recent years, we have witnessed the dangerous consequences of unverified news, WhatsApp forwards and rumours going viral. There have been enough instances of such rumours triggering mob frenzy and lynching. Afwaah is a gripping and realistic account of this contemporary socio-political scenario where facts are manipulated for personal and political gain. The film, a ringing condemnation of prevalent politics of hate, social polarization and the deep-rooted patriarchy, does not take much time to build the momentum.",
         category: "BSide",
 
-    }
-]
+    },
 
-const hollywood = [
     {
         id: 16,
         image: "https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/08/stream-spider-man-across-the-spider-verse-from-8th-august-2023-on-zee5-01.jpg",
@@ -221,10 +219,8 @@ const hollywood = [
         description: "Johnny Depp's portrayal of Captain Jack Sparrow in the Pirates of the Caribbean franchise is one of the most loved and iconic roles of all time.",
         content: "Johnny Depp is one of the biggest stars of Hollywood thanks to his iconic pirate role as Jack Sparrow in the Pirates of the Caribbean. However, post his defamation battle with ex-wife Amber Heard, it looks like the actor has no plans to return to the mega-franchise. And, if the rumours are to be believed, he might land a big role in the Star Wars universe. Shocking, right? Well, scroll down if you want to know what’s really happening.Johnny Depp, on the personal front, recently made news after he was spotted walking with crutches, most probably due to a leg injury. Prior to this, the actor’s gig was cancelled after he was found passed out in his hotel room.",
         category: "HSide",
-    }
-]
+    },
 
-const fitness = [
     {
         id: 29,
         image: "https://canohealth.com/wp-content/uploads/2021/04/4-of-the-best-fitness-routines-for-seniors-1280x720.png",
@@ -339,10 +335,8 @@ const fitness = [
         // description:"Cardio alone isn’t going to cut it if your main exercise goal is to live a longer life. For that purpose, you’ll need to get in at least two muscle-building workouts each week, in addition to a mix of both moderate- and vigorous-intensity aerobic exercise, a new study suggests.",
         content: "Cardio alone isn’t going to cut it if your main exercise goal is to live a longer life. For that purpose, you’ll need to get in at least two muscle-building workouts each week, in addition to a mix of both moderate- and vigorous-intensity aerobic exercise, a new study suggests.If you only do moderate physical activity each week, you will significantly reduce your risk of early mortality, but if you add weekly vigorous activity and muscle-strengthening physical activity to your usual moderate physical activity routine, you will reduce your risk of early mortality even more.",
         category: "ToppostsFit",
-    }
-]
+    },
 
-const food = [
     {
         id: 45,
         image: "https://www.apnadunia.com/wp-content/uploads/2023/02/indian-street-foods-2-1024x576.jpg",
@@ -462,10 +456,8 @@ const food = [
         description: "At its core, chole bhature is a combination of two dishes: chole - a spicy chickpea curry, and bhature - a type of fried bread made with maida flour.",
         content: "Chole Bhature also known as Chana Bhatura is one of the most popular Punjabi dish liked almost all over India. Chole stands for a spiced tangy chickpea curry and Bhatura is a soft and fluffy fried leavened bread. Chola Bhatura always make for a delicious and filling meal. In this recipe post, I have included the step-by-step pictorial of making both the chana curry as well as a quick bhatura that is made without yeast.Chana Bhatura is a spicy, tasty and a filling dish. I have eaten this dish at many places in Punjab and Delhi. Each restaurants or dhaba (eateries on highways) have their own flavors and taste in the chickpea curry.",
         category: "FSide",
-    }
-]
+    },
 
-const technology = [
     {
         id:60,
         image:"https://img.etimg.com/thumb/msid-100864223,width-650,height-488,imgsize-271050,,resizemode-75/lawmakers-consider-more-security-for-offices-following-connolly-staff-attack.jpg",
@@ -584,10 +576,8 @@ const technology = [
         // description:"The new framework for cooperation was finalised during talks between Defence Minister Rajnath Singh and his visiting American counterpart Lloyd Austin, two weeks ahead of Prime Minister Narendra Modi's state visit to Washington.",
         content:"India and the US on Monday concluded an ambitious roadmap for defence industrial cooperation to fast-track technology tie-ups and co-production of military platforms such as air combat and land systems, a move that comes in the wake of China's increasingly aggressive behaviour in the Indo-Pacific region.The new framework for cooperation was finalised during talks between Defence Minister Rajnath Singh and his visiting American counterpart Lloyd Austin, two weeks ahead of Prime Minister Narendra Modi's state visit to Washington.Singh and Austin also decided to initiate negotiations on a framework for the security of supply arrangement and a reciprocal defence procurement agreement, which will promote long-term supply chain stability.",
         category:"ToppostsT",
-    }
-]
+    },
 
-const home = [
     {
         id:75,
         image:"https://imgeng.jagran.com/images/2023/jan/HeartOfStone1674068919885.jpg",
@@ -670,4 +660,4 @@ const home = [
     }
 ]
 
-module.exports = { bollywood, hollywood, technology, fitness, food, home}
+module.exports = { blog }
